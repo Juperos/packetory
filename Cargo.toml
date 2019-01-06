@@ -1,0 +1,14 @@
+[package]
+name = "packetory"
+version = "0.1.0"
+authors = ["Matheus Macabu <macabu.matheus@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bincode = "1.0.1"
+serde_derive = "1.0.84"
+serde = "1.0.84"
+byteorder = "1.2.7"
+
+[profile.release]
+lto = true
